@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="20dp"
+android:background="#93dbed"> <!-- Thay đổi màu nền -->
+
+
+    <!-- Mã chuyến bay -->
+<TextView
+    android:id="@+id/tv_flight_code_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Mã chuyến bay:"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/tv_flight_code"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="FL123"
+    android:textSize="14sp"
+    app:layout_constraintStart_toEndOf="@id/tv_flight_code_label"
+    app:layout_constraintTop_toTopOf="@id/tv_flight_code_label"
+    android:layout_marginStart="8dp"/>
+
+<!-- Thời gian khởi hành -->
+<TextView
+    android:id="@+id/tv_departure_time_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Khởi hành:"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tv_flight_code"
+    android:layout_marginTop="8dp" />
+
+<TextView
+    android:id="@+id/tv_departure_time"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2024-09-25 08:00"
+    android:textSize="14sp"
+    app:layout_constraintStart_toEndOf="@id/tv_departure_time_label"
+    app:layout_constraintTop_toTopOf="@id/tv_departure_time_label"
+    android:layout_marginStart="8dp" />
+
+<!-- Thời gian đến -->
+<TextView
+    android:id="@+id/tv_arrival_time_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Đến:"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tv_departure_time"
+    android:layout_marginTop="4dp" />
+
+<TextView
+    android:id="@+id/tv_arrival_time"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2024-09-25 10:00"
+    android:textSize="14sp"
+    app:layout_constraintStart_toEndOf="@id/tv_arrival_time_label"
+    app:layout_constraintTop_toTopOf="@id/tv_arrival_time_label"
+    android:layout_marginStart="8dp" />
+
+<!-- Địa điểm khởi hành -->
+<TextView
+    android:id="@+id/tv_departure_location_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Từ:"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tv_arrival_time"
+    android:layout_marginTop="8dp" />
+
+<TextView
+    android:id="@+id/tv_departure_location"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hồ Chí Minh"
+    android:textSize="14sp"
+    app:layout_constraintStart_toEndOf="@id/tv_departure_location_label"
+    app:layout_constraintTop_toTopOf="@id/tv_departure_location_label"
+    android:layout_marginStart="8dp" />
+
+<!-- Địa điểm đến -->
+<TextView
+    android:id="@+id/tv_arrival_location_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Đến:"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tv_departure_location"
+    android:layout_marginTop="4dp" />
+
+<TextView
+    android:id="@+id/tv_arrival_location"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hà Nội"
+    android:textSize="14sp"
+    app:layout_constraintStart_toEndOf="@id/tv_arrival_location_label"
+    app:layout_constraintTop_toTopOf="@id/tv_arrival_location_label"
+    android:layout_marginStart="8dp" />
+
+<!-- Tổng số ghế hạng nhất -->
+<TextView
+    android:id="@+id/tv_total_first_class_seats_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tổng số ghế hạng nhất:"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tv_arrival_location"
+    android:layout_marginTop="8dp" />
+
+<TextView
+    android:id="@+id/tv_total_first_class_seats"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="20"
+    android:textSize="14sp"
+    app:layout_constraintStart_toEndOf="@id/tv_total_first_class_seats_label"
+    app:layout_constraintTop_toTopOf="@id/tv_total_first_class_seats_label"
+    android:layout_marginStart="8dp" />
+
+<!-- Số ghế hạng nhất còn trống -->
+<TextView
+    android:id="@+id/tv_available_first_class_seats_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ghế hạng nhất trống:"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tv_total_first_class_seats"
+    android:layout_marginTop="4dp" />
+
+<TextView
+    android:id="@+id/tv_available_first_class_seats"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="15"
+    android:textSize="14sp"
+    app:layout_constraintStart_toEndOf="@id/tv_available_first_class_seats_label"
+    app:layout_constraintTop_toTopOf="@id/tv_available_first_class_seats_label"
+    android:layout_marginStart="8dp" />
+
+<!-- Giá ghế hạng nhất -->
+<TextView
+    android:id="@+id/tv_first_class_seat_price_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Giá ghế hạng nhất:"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tv_available_first_class_seats"
+    android:layout_marginTop="4dp" />
+
+<TextView
+    android:id="@+id/tv_first_class_seat_price"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2,000,000 VND"
+    android:textSize="14sp"
+    app:layout_constraintStart_toEndOf="@id/tv_first_class_seat_price_label"
+    app:layout_constraintTop_toTopOf="@id/tv_first_class_seat_price_label"
+    android:layout_marginStart="8dp" />
+
+<!-- Tổng số ghế phổ thông -->
+<TextView
+    android:id="@+id/tv_total_economy_seats_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tổng số ghế phổ thông:"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tv_first_class_seat_price"
+    android:layout_marginTop="8dp" />
+
+<TextView
+    android:id="@+id/tv_total_economy_seats"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="150"
+    android:textSize="14sp"
+    app:layout_constraintStart_toEndOf="@id/tv_total_economy_seats_label"
+    app:layout_constraintTop_toTopOf="@id/tv_total_economy_seats_label"
+    android:layout_marginStart="8dp" />
+
+<!-- Số ghế phổ thông còn trống -->
+<TextView
+    android:id="@+id/tv_available_economy_seats_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ghế phổ thông trống:"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tv_total_economy_seats"
+    android:layout_marginTop="4dp" />
+
+<TextView
+    android:id="@+id/tv_available_economy_seats"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="100"
+    android:textSize="14sp"
+    app:layout_constraintStart_toEndOf="@id/tv_available_economy_seats_label"
+    app:layout_constraintTop_toTopOf="@id/tv_available_economy_seats_label"
+    android:layout_marginStart="8dp" />
+
+<!-- Giá ghế phổ thông -->
+<TextView
+    android:id="@+id/tv_economy_seat_price_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Giá ghế phổ thông:"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tv_available_economy_seats"
+    android:layout_marginTop="4dp" />
+
+<TextView
+    android:id="@+id/tv_economy_seat_price"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="800,000 VND"
+    android:textSize="14sp"
+    app:layout_constraintStart_toEndOf="@id/tv_economy_seat_price_label"
+    app:layout_constraintTop_toTopOf="@id/tv_economy_seat_price_label"
+    android:layout_marginStart="8dp" />
+
+<!-- LinearLayout để chứa các nút -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:orientation="horizontal"
+    app:layout_constraintTop_toBottomOf="@id/tv_economy_seat_price"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+    <!-- Nút Đặt Vé Hạng Nhất -->
+    <Button
+        android:id="@+id/btn_book_first_class"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Đặt vé hạng nhất"
+        android:background="#004d66"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginEnd="8dp"
+        app:backgroundTint="@null"/>
+
+    <!-- Nút Đặt Vé Phổ Thông -->
+    <Button
+        android:id="@+id/btn_book_economy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Đặt vé thường"
+        android:background="#004d66"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:backgroundTint="@null"
+        />
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

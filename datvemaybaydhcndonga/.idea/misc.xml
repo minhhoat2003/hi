@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/activity_admin_flight_management.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/activity_admin_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/activity_admin_main.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/activity_flight_booking.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/activity_flight_list.xml" value="0.153125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/activity_qr_code.xml" value="0.13645833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/activity_search_flight.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/activity_user_info.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/activity_user_main.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/activity_user_register.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/admin_view_customer.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/booking_item.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/dialog_add_flight.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/dialog_edit_flight.xml" value="0.153125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/flight_item.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/item_customer.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/item_flight.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/datvemaybaydhcndonga/app/src/main/res/layout/item_user.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

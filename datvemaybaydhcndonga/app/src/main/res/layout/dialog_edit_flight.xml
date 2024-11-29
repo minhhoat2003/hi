@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/input_flight_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã chuyến bay" />
+
+    <TextView
+        android:id="@+id/input_departure_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thời gian khởi hành"
+        android:background="@android:color/transparent"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/input_arrival_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thời gian đến"
+        android:background="@android:color/transparent"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/input_departure_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa điểm khởi hành" />
+
+    <EditText
+        android:id="@+id/input_arrival_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa điểm đến" />
+
+    <EditText
+        android:id="@+id/input_total_first_class_seats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tổng số ghế hạng nhất" />
+
+    <EditText
+        android:id="@+id/input_available_first_class_seats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số ghế hạng nhất còn trống" />
+
+    <EditText
+        android:id="@+id/input_first_class_seat_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá vé hạng nhất" />
+
+    <EditText
+        android:id="@+id/input_total_economy_seats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tổng số ghế phổ thông" />
+
+    <EditText
+        android:id="@+id/input_available_economy_seats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số ghế phổ thông còn trống" />
+
+    <EditText
+        android:id="@+id/input_economy_seat_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá vé phổ thông" />
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#f0f0f0">
+
+    <!-- Title for Admin Dashboard -->
+    <TextView
+        android:id="@+id/adminTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <!-- Button to View Customer Info -->
+    <Button
+        android:id="@+id/viewCustomerInfoButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Xem Thông Tin Khách Hàng"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/adminTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to Manage Flights -->
+    <Button
+        android:id="@+id/manageFlightsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Quản Lý Chuyến Bay"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/viewCustomerInfoButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to View Statistics -->
+    <Button
+        android:id="@+id/viewStatisticsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Thống Kê"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/manageFlightsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to Logout -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng Xuất"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:backgroundTint="#F44336"
+        android:textColor="#ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/viewStatisticsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

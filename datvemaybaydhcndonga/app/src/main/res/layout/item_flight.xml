@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Flight ID -->
+    <TextView
+        android:id="@+id/flightIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flight ID: "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <!-- Flight Code -->
+    <TextView
+        android:id="@+id/flightCodeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flight Code: "
+        android:textSize="16sp"/>
+
+    <!-- Departure Time -->
+    <TextView
+        android:id="@+id/departureTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Departure Time: "
+        android:textSize="16sp"/>
+
+    <!-- Arrival Time -->
+    <TextView
+        android:id="@+id/arrivalTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrival Time: "
+        android:textSize="16sp"/>
+
+    <!-- Departure Location -->
+    <TextView
+        android:id="@+id/departureLocationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Departure Location: "
+        android:textSize="16sp"/>
+
+    <!-- Arrival Location -->
+    <TextView
+        android:id="@+id/arrivalLocationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrival Location: "
+        android:textSize="16sp"/>
+
+    <!-- First Class Seats Info -->
+    <TextView
+        android:id="@+id/firstClassSeatsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Class Seats (Available/Total): "
+        android:textSize="16sp"/>
+
+    <!-- First Class Price -->
+    <TextView
+        android:id="@+id/firstClassPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Class Price: "
+        android:textSize="16sp"/>
+
+    <!-- Economy Seats Info -->
+    <TextView
+        android:id="@+id/economySeatsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Economy Seats (Available/Total): "
+        android:textSize="16sp"/>
+
+    <!-- Economy Price -->
+    <TextView
+        android:id="@+id/economyPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Economy Price: "
+        android:textSize="16sp"/>
+
+    <!-- Edit and Delete Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/editFlightButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sửa"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/deleteFlightButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xóa"
+            android:backgroundTint="#F44336"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+</LinearLayout>
